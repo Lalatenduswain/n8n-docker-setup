@@ -30,7 +30,7 @@ services:
       # Webhook Configuration
       # - WEBHOOK_URL=https://your-domain.com # Uncomment if using webhooks
       # Add the license key here 👇
-      - N8N_LICENSE_KEY=defb077f-53d5-4605-8003-181961731111
+      - N8N_LICENSE_KEY=defb077f-53d5-4605-8003-181961731111-10do
     volumes:
       - n8n_data:/home/node/.n8n
       - ./custom:/home/node/.n8n/custom # Uncomment if you need custom extensions
